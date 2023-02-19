@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.weather_card{
+    margin: 20px;
+    width: 280px;
+    background: rgb(99, 99, 233);
+    border-radius: 12px;
+    padding: 10px;
+}
+.icon{
+    background: #c9c6c6;
+    border-radius: 50px;
+
+}
+.icon img{
+    width: 50px;
+}
+.weather_top{
+color: black;
+display: flex;
+align-items: center;
+column-gap: 10px;
+flex-wrap: wrap;
+}
+.weather_temp{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    padding-top: 15px;
+
+}
+.weather_temp h1{
+    padding: 0px;
+    font-size: 35px;
+    font-weight: 800;
+}
+.weather_temp div{
+    background: #fff;
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+    border: solid 1px cornflowerblue;
+    padding: 5px;
+    border-radius: 12px;
+}
+.weather_desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.desc_card_humidity{
+    border: solid 1px cornflowerblue;
+    background: chartreuse;
+    padding: 5px;
+    border-radius: 8px;
+}
+.desc_card_windspeed{
+    border: solid 1px cornflowerblue;
+    background: yellow;
+    padding: 5px;
+    border-radius: 8px;
+}
+.desc_card_pressure{
+    border: solid 1px cornflowerblue;
+    background: violet;
+    padding: 5px;
+    border-radius: 8px;
+}
